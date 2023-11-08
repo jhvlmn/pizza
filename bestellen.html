@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="bestellen.html">Pizza bestellen</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li style="float:right"><a href="about.html">About</a></li>
+    </ul>
+</nav>
+<main>
+    <h1>Bestel hier de pizza</h1>
+    Maak uw keuze uit een lekkere pizza
+    <br><br>
+
+    <table>
+        <tr>
+            <td>
+                <span class="pizzaName">Pizza Hawai</span><br><br>
+                <img src="images/pizzahawai.jpg"><br>
+                € 10,00<br>
+                aantal <input class="aantal" type="number" min="0" name="aantalHawai">
+            </td>
+            <td>
+                <h2>Pizza Funghi</h2><br>
+                [foto]<br>
+                € 12,50<br>
+                aantal <input class="aantal" type="number" min="0" name="aantalFunghi">
+            </td>
+        </tr>        
+    </table>
+
+    <input type="button" value="Bestellen" class="bestelButton">
+
+</main>
+
+</body>
+</html>

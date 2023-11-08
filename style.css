@@ -1,0 +1,73 @@
+body{
+    background-color:bisque;
+    font-family:'Courier New', Courier, monospace; 
+    margin:0px;
+}
+main{
+  margin:30px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }  
+
+  li a:hover:not(.active){
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  td{
+    padding:20px;
+    border:1px solid #04AA6D;
+    margin:10px;
+  }
+  table{
+    border-spacing: 20px;
+    
+  }
+  .pizzaName{
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom:10px;
+  }
+  .aantal{
+    width:50px;
+    background-color: #08db8e;
+    color:#FFFFFF;
+    cursor:pointer;
+  }
+  .aantal:hover{
+    background-color:#04AA6D;
+  }
+  .bestelButton{
+    width:200px;
+    height:40px;
+    font-size:30px;
+    background-color: #08db8e;
+    color:#FFFFFF;
+    cursor:pointer;
+    margin-left:20px;
+  }
+  .bestelButton:hover{
+    background-color: #04AA6D;
+  }
