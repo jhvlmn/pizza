@@ -20,11 +20,43 @@
     Maak uw keuze uit een lekkere pizza
     <br><br>
 
-    <table>
-        <tr>
+    <form method="post" action="winkelwagen.php">
+        <table>
+            <tr>
+                <td>
+                    <span class="pizzaName">Pizza Hawai</span><br><br>
+                    <img src="images/pizzahawai.jpg" height="150px"><br>
+                    € 10,00<br>
+                    aantal <input class="aantal" type="number" min="0" value="0" name="aantalHawai">
+                </td>
+                <td>
+                    <h2>Pizza Funghi</h2><br>
+                    [foto]<br>
+                    € 12,50<br>
+                    aantal <input class="aantal" type="number" min="0" value="0" name="aantalFunghi">
+                </td>
+            </tr>
+        </table>
+
+
+    <!--
+            <td>
+                <h2>Pizza Funghi</h2><br>
+                [foto]<br>
+                € 12,50<br>
+                aantal <input class="aantal" type="number" min="0" name="aantalFunghi">
+            </td>
+            <td>
+                <h2>Pizza Funghi</h2><br>
+                [foto]<br>
+                € 12,50<br>
+                aantal <input class="aantal" type="number" min="0" name="aantalFunghi">
+            </td>
+            </tr>
+            <tr>
             <td>
                 <span class="pizzaName">Pizza Hawai</span><br><br>
-                <img src="images/pizzahawai.jpg"><br>
+                <img src="images/pizzahawai.jpg" height="150px"><br>
                 € 10,00<br>
                 aantal <input class="aantal" type="number" min="0" name="aantalHawai">
             </td>
@@ -34,11 +66,24 @@
                 € 12,50<br>
                 aantal <input class="aantal" type="number" min="0" name="aantalFunghi">
             </td>
-        </tr>        
-    </table>
+            <td>
+                <h2>Pizza Funghi</h2><br>
+                [foto]<br>
+                € 12,50<br>
+                aantal <input class="aantal" type="number" min="0" name="aantalFunghi">
+            </td>
+            <td>
+                <h2>Pizza Funghi</h2><br>
+                [foto]<br>
+                € 12,50<br>
+                aantal <input class="aantal" type="number" min="0" name="aantalFunghi">
+            </td>
+        </tr>    
+        </table>
+    !-->
 
-    <input type="button" value="Bestellen" class="bestelButton">
-
+        <input type="submit" value="Bestellen" class="bestelButton">
+    </form>
 </main>
 
 </body>
