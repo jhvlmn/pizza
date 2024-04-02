@@ -41,18 +41,6 @@
         echo "<td> $aantalHawai </td>";
         echo "<td>". $aantalHawai * 10 ." </td>";
     echo "</tr>";
-        
-    
-    //Aantal bestelde Funghi pizza's ophalen
-    $aantalFunghi = $_POST["aantalFunghi"];
-    //Totaalprijs ophogen
-    $totaalPrijs += $aantalFunghi * 12.50;
-    //Pizza op het scherm tonen
-    echo "<tr>";
-        echo "<td>Funghi</td>";
-        echo "<td> $aantalFunghi </td>";
-        echo "<td>". $aantalFunghi * 12.50 ." </td>";
-    echo "</tr>";
     
     ?>
     <tr>
