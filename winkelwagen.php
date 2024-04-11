@@ -33,25 +33,17 @@
 
     //Aantal bestelde Hawai pizza's ophalen
     $aantalHawai = $_POST["aantalHawai"];
-    $aantalTonno = $_POST["aantalTonno"];
+
     //Totaalprijs ophogen
     $totaalPrijs += $aantalHawai * 10;
-    $totaalPrijs += $aantalTonno * 15;
+
     //Pizza op het scherm tonen
-    if($aantalHawai > 0){
-        echo "<tr>";
-            echo "<td>Hawai</td>";
-            echo "<td> $aantalHawai </td>";
-            echo "<td>". $aantalHawai * 10 ." </td>";
-        echo "</tr>";
-    }
-    if($aantalTonno > 0){
-        echo "<tr>";
-            echo "<td>Tonno</td>";
-            echo "<td> $aantalTonno </td>";
-            echo "<td>". $aantalTonno * 15 ." </td>";
-        echo "</tr>";
-    }
+    echo "<tr>";
+        echo "<td>Hawai</td>";
+        echo "<td> $aantalHawai </td>";
+        echo "<td>". $aantalHawai * 10 ." </td>";
+    echo "</tr>";
+   
 
     ?>
     <tr>
